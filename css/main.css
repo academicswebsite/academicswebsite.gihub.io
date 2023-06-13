@@ -7,6 +7,7 @@
   --white: white;
 }
 
+
 html {
   font-size: 16px !important;
 }
@@ -30,17 +31,6 @@ body {
 .white {
   color: var(--white) !important;
 }
-
-.fontawesomeicon::before {
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
- }
-
-.Orcid::before {
-   font: var(--fa-font-brands);
-    content: ' \f8d2';
- }
 
 .badge-bright-blue {
   background: var(--bright-blue);
