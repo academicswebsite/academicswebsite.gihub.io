@@ -90,6 +90,27 @@ h4, h5, h6 {
   color: #1585cf !important;
 }
 
+.moving-text-container {
+  position: relative;
+  overflow: hidden;
+  height: 40px; /* Adjust the height as needed */
+}
+
+.moving-text {
+  position: absolute;
+  top: 0;
+  right: 100%; /* Start the text outside the container */
+  white-space: nowrap;
+  font-size: 13px;
+  color: red;
+  animation: moveLeft 15s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes moveLeft {
+  0% { right: 100%; }
+  100% { right: -100%; } /* Move the text completely to the left */
+}
+
 #projects {
   padding: 0 !important;
 }
