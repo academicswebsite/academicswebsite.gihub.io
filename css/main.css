@@ -103,12 +103,12 @@ h4, h5, h6 {
   white-space: nowrap;
   font-size: 13px;
   color: red;
-  animation: moveLeft 15s linear infinite; /* Adjust the animation duration as needed */
+  animation: moveRight 15s linear infinite; /* Adjust the animation duration as needed */
 }
 
-@keyframes moveLeft {
-  0% { right: 100%; }
-  100% { right: -100%; } /* Move the text completely to the left */
+@keyframes moveRight {
+  0% { left: 100%; }
+  100% { left: -100%; } /* Move the text completely to the left */
 }
 
 #projects {
