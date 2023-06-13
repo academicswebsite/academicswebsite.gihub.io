@@ -103,6 +103,7 @@ h4, h5, h6 {
   white-space: nowrap;
   font-size: 13px;
   color: red;
+  margin-bottom: 15px;
   animation: moveRight 15s linear infinite; /* Adjust the animation duration as needed */
 }
 
